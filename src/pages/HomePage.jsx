@@ -16,19 +16,19 @@ function HomePage() {
           <div>
             <h2>HOME</h2>
           </div> */}
-      
+
           <div>
             <h2><a href="#About"><img className="icon" src="/images/info.png"></img>ABOUT</a></h2>
-        
-          <div>
-            <h2><a href="#Gallery"><img className="icon" src="/images/photos.png"></img>GALLERY</a></h2>
-  
+
+            <div>
+              <h2><a href="#Gallery"><img className="icon" src="/images/photos.png"></img>GALLERY</a></h2>
+
+            </div>
+
+            <div>
+              <h2><a href="#Contact"><img className="icon" src="/images/contact.png"></img>CONTACT</a></h2>
+            </div>
           </div>
-    
-          <div>
-            <h2><a href="#Contact"><img className="icon" src="/images/contact.png"></img>CONTACT</a></h2>
-          </div>
-        </div>
         </div>
         <div className="basis-5/6 content-center pt-8 bg-black">
           <div>
@@ -39,8 +39,9 @@ function HomePage() {
               Hairstylist at Juan Romero Salon
             </h4>
           </div>
-          <div className="imageCard flex p-8 justify-center">
-            <ImageCard />
+          <div className="flex justify-center p-8">
+            <div className="animate content p-20 flex p-8 pt-8 justify-center">
+            </div>
           </div>
           <div>
             <h3 id="About">About Me</h3>
