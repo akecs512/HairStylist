@@ -1,0 +1,319 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color: black;
+  margin: 0;
+}
+
+.hero {
+  background-color: black
+}
+
+.card-image {
+  height: 200px;
+  width: 380px;
+  object-fit: fill;
+  margin: 10px 0;
+  ;
+}
+
+.about-image {
+  padding: 20px;
+  align-items: center;
+}
+
+.about-card {
+  display: flex;
+  padding: 20px;
+}
+
+.divider {
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.divider::before,
+.divider::after {
+  flex: 1;
+  content: '';
+  padding: 3px;
+  background-color: red;
+  margin: 5px;
+}
+
+
+
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  padding: 2px;
+  font-size: 40px;
+  background-color: #000000;
+  font-family: "Montserrat";
+  color: white;
+}
+
+h4 {
+  display: flex;
+  justify-content: center;
+  padding: 2px;
+  font-size: 20px;
+  font-family: "Montserrat";
+  color: white;
+}
+
+h2 {
+  color: white;
+  justify-content: center;
+  display: flex;
+}
+
+.Typewriter {
+  display: inline-block;
+}
+
+.Typewriter__wrapper {
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.Typewriter__cursor {
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.meImage {
+  height: 100;
+  width: 100;
+}
+
+.icon-list {
+  height: 30px;
+  margin: 10px 20px;
+  display: flex
+}
+
+
+
+h3 {
+  font-family: "Montserrat";
+  display: flex;
+  justify-content: start;
+  color: white;
+  padding: 10px;
+  font-size: 30px;
+  margin: 10px;
+  font-size: x-large;
+}
+
+hr {
+  width: 30%;
+  background-color: white;
+  height: 1px;
+  margin: 10px;
+
+}
+
+p {
+  font-family: "Montserrat";
+  color: gray;
+  font-size: medium;
+  padding-left: 10px;
+  padding-top: 10px;
+
+}
+
+.reviewer {
+  /* display: flex; */
+  justify-content: start;
+  /* padding: 20px; */
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 16px;
+}
+
+.box {
+  transform: skewY(24deg);
+}
+
+.gallery {
+  /* display: auto; */
+
+  justify-content: center;
+  padding: 20px;
+  height: 200px;
+}
+
+.icon {
+  justify-content: center;
+  display: flex;
+  padding-bottom: 2px;
+  padding-top: 30px;
+}
+
+.skills-title {
+  font-family: "Poppins";
+  font-size: 20px;
+  padding-bottom: 20px;
+
+}
+
+.header-title {
+  background-color: transparent;
+}
+
+.footer {
+  height: 75px;
+
+}
+
+.footer-icon {
+  height: 35px;
+  align-items: center;
+  display: flex;
+  margin: 10px
+}
+
+.card-text {
+  /* height: 300px; */
+}
+
+.card-title {
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  /* flex: 1; */
+  /* align-items: bottom; */
+  /* align-content: bottom; */
+  position: relative
+}
+
+.card-subtitle {
+  display: flex;
+  justify-content: center;
+  font-size: large;
+  padding: 0;
+  height: 50px;
+  align-items: top;
+  /* padding: 10px; */
+  /* flex: 1; */
+  position: relative
+}
+
+.list-disc {
+  /* flex: 1; */
+  height: 150px;
+  padding-left: 35px;
+  padding-right: 20px;
+  padding-top: 4px;
+}
+
+.card-actions {
+  height: 75px;
+}
+
+.card-body {
+  /* display: flex; */
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100%;
+  padding: 0;
+  flex-basis: 80px;
+}
+
+
+
+.input {
+  align-self: center;
+  background-color: #f6ebdb;
+  color: black
+}
+
+.worried {
+  width: 200px;
+  display: flex;
+  justify-content: center;
+}
+
+.error {
+  justify-content: start;
+  font-size: x-large;
+  margin-top: 50px;
+}
+
+.border {
+  border: 30px solid #cc444b;
+  border-style: groove;
+  margin: 8%;
+  padding: 0 60px 40px 60px;
+  justify-content: center;
+}
+
+.card {
+  height: 750px
+}
+
+
+.content {
+  height: 500px;
+  width: 300px;
+  /* background-image: url(../public/images/hair99.jpg); */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: 5s;
+
+  animation-name: animate;
+  animation-direction: alternate;
+  animation-play-state: running;
+  animation-timing-function: ease-in-out;
+  animation-duration: 30s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+}
+
+@keyframes animate {
+  0% {
+    background-image: url(../public/images/hair98.jpg);
+  }
+
+  20% {
+    background-image: url(../public/images/hair97.jpg);
+  }
+
+  40% {
+    background-image: url(../public/images/hair96.jpg);
+  }
+
+  60% {
+    background-image: url(../public/images/hair95.jpg);
+  }
+
+  80% {
+    background-image: url(../public/images/hair94.jpg);
+  }
+
+  100% {
+    background-image: url(../public/images/hair99.jpg);
+  }
+}
+
+.animate {
+  animation: animate 30s infinite;
+}
