@@ -10,28 +10,25 @@ function HomePage() {
           <div className="avatar scale-75">
             <img src="/images/marivel.JPG"></img>
           </div>
-          <div className="icon">
+          {/* <div className="icon">
             <img src="/images/barbershopWhite.png"></img>
           </div>
           <div>
             <h2>HOME</h2>
-          </div>
-          <div className="icon">
-            <img src="/images/info.png"></img>
-          </div>
+          </div> */}
+      
           <div>
-            <h2><a href="#About">ABOUT</a></h2>
-          </div>  <div className="icon">
-            <img src="/images/photos.png"></img>
-          </div>
+            <h2><a href="#About"><img className="icon" src="/images/info.png"></img>ABOUT</a></h2>
+        
           <div>
-            <h2><a href="#Gallery">GALLERY</a></h2>
-          </div>  <div className="icon">
-            <img src="/images/contact.png"></img>
+            <h2><a href="#Gallery"><img className="icon" src="/images/photos.png"></img>GALLERY</a></h2>
+  
           </div>
+    
           <div>
-            <h2><a href="#Contact">CONTACT</a></h2>
+            <h2><a href="#Contact"><img className="icon" src="/images/contact.png"></img>CONTACT</a></h2>
           </div>
+        </div>
         </div>
         <div className="basis-5/6 content-center pt-8 bg-black">
           <div>
@@ -79,7 +76,7 @@ function HomePage() {
             <h3 id="Gallery">Gallery</h3>
             <br />
             <hr></hr>
-            <div className="section grid grid-cols-3 pt-16">
+            <div className="section grid grid-cols-2 pt-16">
 
               <div>
                 <img className="gallery" src="/images/hair94.JPG"></img>
@@ -124,6 +121,7 @@ function HomePage() {
     </>
   );
 }
+
 
 export default HomePage;
 
