@@ -8,25 +8,25 @@ function HomePage() {
       <div className="flex flex-row">
         <div className="basis-1/6 bg-#222">
           <div className="avatar scale-75">
-            <img src="/images/marivel.JPG"></img>
+            <img src="/marivel.JPG"></img>
           </div>
           {/* <div className="icon">
-            <img src="/images/barbershopWhite.png"></img>
+            <img src="/barbershopWhite.png"></img>
           </div>
           <div>
             <h2>HOME</h2>
           </div> */}
 
           <div>
-            <h2><a href="#About"><img className="icon" src="/images/info.png"></img>ABOUT</a></h2>
+            <h2><a href="#About"><img className="icon" src="/info.png"></img>ABOUT</a></h2>
 
             <div>
-              <h2><a href="#Gallery"><img className="icon" src="/images/photos.png"></img>GALLERY</a></h2>
+              <h2><a href="#Gallery"><img className="icon" src="/photos.png"></img>GALLERY</a></h2>
 
             </div>
 
             <div>
-              <h2><a href="#Contact"><img className="icon" src="/images/contact.png"></img>CONTACT</a></h2>
+              <h2><a href="#Contact"><img className="icon" src="/contact.png"></img>CONTACT</a></h2>
             </div>
           </div>
         </div>
@@ -59,13 +59,13 @@ function HomePage() {
             <div className="">
               <h3>Reviews</h3>
               <div className="ml-8">
-                <img className="reviewer" src="/images/face1.png"></img>
+                <img className="reviewer" src="/face1.png"></img>
 
                 <p className="pt-4">Anita Haircut</p>
                 <p>She's the best!</p>
                 <br />
 
-                <img className="reviewer" src="/images/face2.png"></img>
+                <img className="reviewer" src="/face2.png"></img>
 
                 <p className="pt-4">Harry Heade</p>
                 <p>No one better than Marivel</p>
@@ -80,22 +80,22 @@ function HomePage() {
             <div className="section grid grid-cols-2 pt-16">
 
               <div>
-                <img className="gallery" src="/images/hair94.JPG"></img>
+                <img className="gallery" src="/hair94.JPG"></img>
               </div>
               <div>
-                <img className="gallery" src="/images/hair95.JPG"></img>
+                <img className="gallery" src="/hair95.JPG"></img>
               </div>
               <div>
-                <img className="gallery" src="/images/hair96.JPG"></img>
+                <img className="gallery" src="/hair96.JPG"></img>
               </div>
               <div>
-                <img className="gallery" src="/images/hair97.JPG"></img>
+                <img className="gallery" src="/hair97.JPG"></img>
               </div>
               <div>
-                <img className="gallery" src="/images/hair98.JPG"></img>
+                <img className="gallery" src="/hair98.JPG"></img>
               </div>
               <div>
-                <img className="gallery" src="/images/hair99.JPG"></img>
+                <img className="gallery" src="/hair99.JPG"></img>
               </div>
             </div>
 

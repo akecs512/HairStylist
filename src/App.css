@@ -273,7 +273,7 @@ p {
 .content {
   height: 500px;
   width: 300px;
-  /* background-image: url(../public/images/hair99.jpg); */
+  /* background-image: url(../public/hair99.jpg); */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -290,27 +290,27 @@ p {
 
 @keyframes animate {
   0% {
-    background-image: url(../public/images/hair98.jpg);
+    background-image: url(../public/hair98.jpg);
   }
 
   20% {
-    background-image: url(../public/images/hair97.jpg);
+    background-image: url(../public/hair97.jpg);
   }
 
   40% {
-    background-image: url(../public/images/hair96.jpg);
+    background-image: url(../public/hair96.jpg);
   }
 
   60% {
-    background-image: url(../public/images/hair95.jpg);
+    background-image: url(../public/hair95.jpg);
   }
 
   80% {
-    background-image: url(../public/images/hair94.jpg);
+    background-image: url(../public/hair94.jpg);
   }
 
   100% {
-    background-image: url(../public/images/hair99.jpg);
+    background-image: url(../public/hair99.jpg);
   }
 }
 
