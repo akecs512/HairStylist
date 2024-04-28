@@ -1,6 +1,27 @@
 
 
-import ImageCard from "../components/ImageCard.jsx"
+import hair98 from '/hair98.jpg';
+import hair99 from '/hair99.jpg';
+import hair96 from '/hair96.jpg';
+import hair97 from '/hair97.jpg';
+import hair95 from '/hair95.jpg';
+import hair94 from '/hair94.jpg';
+import face1 from '/face1.png';
+import face2 from '/face2.png';
+import barbershopWhite from '/barbershopWhite.png';
+import photos from '/photos.png';
+import contact from '/contact.png';
+import info from '/info.png';
+import marivel from '/marivel.jpg';
+
+const styles = {
+  content: {
+    backgroundImage: `url(${hair98})`,
+    padding: '20px',
+    paddingTop: '8px',
+    justifyContent: 'center'
+  }
+};
 
 function HomePage() {
   return (
@@ -8,7 +29,7 @@ function HomePage() {
       <div className="flex flex-row">
         <div className="basis-1/6 bg-#222">
           <div className="avatar scale-75">
-            <img src="/marivel.JPG"></img>
+            <img src="/marivel.jpg"></img>
           </div>
           {/* <div className="icon">
             <img src="/barbershopWhite.png"></img>
@@ -40,7 +61,7 @@ function HomePage() {
             </h4>
           </div>
           <div className="flex justify-center p-8">
-            <div className="animate content p-20 flex p-8 pt-8 justify-center">
+            <div className="animate content p-20 flex p-8 pt-8 justify-center" style={styles.content}>
             </div>
           </div>
           <div>
@@ -80,22 +101,22 @@ function HomePage() {
             <div className="section grid grid-cols-2 pt-16">
 
               <div>
-                <img className="gallery" src="/hair94.JPG"></img>
+                <img className="gallery" src="src/images/hair98.jpg"></img>
               </div>
               <div>
-                <img className="gallery" src="/hair95.JPG"></img>
+                <img className="gallery" src="src/images/hair95.jpg"></img>
               </div>
               <div>
-                <img className="gallery" src="/hair96.JPG"></img>
+                <img className="gallery" src="src/images/hair96.jpg"></img>
               </div>
               <div>
-                <img className="gallery" src="/hair97.JPG"></img>
+                <img className="gallery" src="src/images/hair97.jpg"></img>
               </div>
               <div>
-                <img className="gallery" src="/hair98.JPG"></img>
+                <img className="gallery" src="src/images/hair94.jpg"></img>
               </div>
               <div>
-                <img className="gallery" src="/hair99.JPG"></img>
+                <img className="gallery" src="src/images/hair99.jpg"></img>
               </div>
             </div>
 

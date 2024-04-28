@@ -273,24 +273,25 @@ p {
 .content {
   height: 500px;
   width: 300px;
-  /* background-image: url(../public/hair99.jpg); */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   transition: 5s;
 
-  animation-name: animate;
+  /* animation-name: animate;
   animation-direction: alternate;
   animation-play-state: running;
   animation-timing-function: ease-in-out;
   animation-duration: 30s;
   animation-fill-mode: forwards;
-  animation-iteration-count: infinite;
+  animation-iteration-count: infinite; */
 }
 
 @keyframes animate {
   0% {
     background-image: url(../public/hair98.jpg);
+    display: flex;
+    opacity: 1;
   }
 
   20% {
