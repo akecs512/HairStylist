@@ -311,10 +311,10 @@ p {
   }
 
   100% {
-    background-image: url(../public/hair99.jpg);
+    background-image: url(../public/images/hair99.jpg);
   }
 }
 
 .animate {
-  animation: animate 30s infinite;
+  animation: animate 30s reverse infinite;
 }
