@@ -84,22 +84,22 @@ function HomePage() {
             <div className="section grid grid-cols-2 pt-16">
 
               <div>
-                <img className="gallery" src="/images/hair98.jpg"></img>
+                <img className="gallery" src="/images/hair98.jpg" alt="hair98"></img>
               </div>
               <div>
-                <img className="gallery" src="/images/hair95.jpg"></img>
+                <img className="gallery" src="/images/hair95.jpg" alt="hair95"></img>
               </div>
               <div>
-                <img className="gallery" src="/images/hair96.jpg"></img>
+                <img className="gallery" src="/images/hair96.jpg" alt="hair96"></img>
               </div>
               <div>
-                <img className="gallery" src="/images/hair97.jpg"></img>
+                <img className="gallery" src="/images/hair97.jpg" alt="hair97"></img>
               </div>
               <div>
-                <img className="gallery" src="src/images/hair94.jpg"></img>
+                <img className="gallery" src="/images/hair94.jpg" alt="hair94"></img>
               </div>
               <div>
-                <img className="gallery" src="src/images/hair99.jpg"></img>
+                <img className="gallery" src="/images/hair99.jpg" alt="hair99"></img>
               </div>
             </div>
 
