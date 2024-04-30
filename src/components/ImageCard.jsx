@@ -1,9 +1,9 @@
-function ImageCard() {
+function ImageCard(images) {
+    
     return (
         <>
-            <div className="animate content p-20">
-                {/* <img src="/images/hair1.png" alt="hair Image" /> */}
-            </div>
+        <img className="animate content p-20" src={images}>
+            </img>
         </>
     )
 

@@ -1,27 +1,9 @@
 
 
-import hair98 from '/hair98.jpg';
-import hair99 from '/hair99.jpg';
-import hair96 from '/hair96.jpg';
-import hair97 from '/hair97.jpg';
-import hair95 from '/hair95.jpg';
-import hair94 from '/hair94.jpg';
-import face1 from '/face1.png';
-import face2 from '/face2.png';
-import barbershopWhite from '/barbershopWhite.png';
-import photos from '/photos.png';
-import contact from '/contact.png';
-import info from '/info.png';
-import marivel from '/marivel.jpg';
+import { hairImages } from "../lib/content/hairImages";
+import ImageCard from "../components/ImageCard";
 
-const styles = {
-  content: {
-    backgroundImage: `url(${hair98})`,
-    padding: '20px',
-    paddingTop: '8px',
-    justifyContent: 'center'
-  }
-};
+
 
 function HomePage() {
   return (
@@ -29,7 +11,7 @@ function HomePage() {
       <div className="flex flex-row">
         <div className="basis-1/6 bg-#222">
           <div className="avatar scale-75">
-            <img src="/marivel.jpg"></img>
+            <img src="/images/marivel.jpg"></img>
           </div>
           {/* <div className="icon">
             <img src="/barbershopWhite.png"></img>
@@ -39,15 +21,15 @@ function HomePage() {
           </div> */}
 
           <div>
-            <h2><a href="#About"><img className="icon" src="/info.png"></img>ABOUT</a></h2>
+            <h2><a href="#About"><img className="icon" src="/images/info.png"></img>ABOUT</a></h2>
 
             <div>
-              <h2><a href="#Gallery"><img className="icon" src="/photos.png"></img>GALLERY</a></h2>
+              <h2><a href="#Gallery"><img className="icon" src="/images/photos.png"></img>GALLERY</a></h2>
 
             </div>
 
             <div>
-              <h2><a href="#Contact"><img className="icon" src="/contact.png"></img>CONTACT</a></h2>
+              <h2><a href="#Contact"><img className="icon" src="/images/contact.png"></img>CONTACT</a></h2>
             </div>
           </div>
         </div>
@@ -59,9 +41,10 @@ function HomePage() {
             <h4 className="">
               Hairstylist at Juan Romero Salon
             </h4>
+            {/* <div><ImageCard></ImageCard></div> */}
           </div>
           <div className="flex justify-center p-8">
-            <div className="animate content p-20 flex p-8 pt-8 justify-center" style={styles.content}>
+            <div className="animate content p-20 flex p-8 pt-8 justify-center">
             </div>
           </div>
           <div>
@@ -80,13 +63,13 @@ function HomePage() {
             <div className="">
               <h3>Reviews</h3>
               <div className="ml-8">
-                <img className="reviewer" src="/face1.png"></img>
+                <img className="reviewer" src="/images/face1.png"></img>
 
                 <p className="pt-4">Anita Haircut</p>
                 <p>She's the best!</p>
                 <br />
 
-                <img className="reviewer" src="/face2.png"></img>
+                <img className="reviewer" src="/images/face2.png"></img>
 
                 <p className="pt-4">Harry Heade</p>
                 <p>No one better than Marivel</p>
@@ -101,16 +84,16 @@ function HomePage() {
             <div className="section grid grid-cols-2 pt-16">
 
               <div>
-                <img className="gallery" src="src/images/hair98.jpg"></img>
+                <img className="gallery" src="/images/hair98.jpg"></img>
               </div>
               <div>
-                <img className="gallery" src="src/images/hair95.jpg"></img>
+                <img className="gallery" src="/images/hair95.jpg"></img>
               </div>
               <div>
-                <img className="gallery" src="src/images/hair96.jpg"></img>
+                <img className="gallery" src="/images/hair96.jpg"></img>
               </div>
               <div>
-                <img className="gallery" src="src/images/hair97.jpg"></img>
+                <img className="gallery" src="/images/hair97.jpg"></img>
               </div>
               <div>
                 <img className="gallery" src="src/images/hair94.jpg"></img>

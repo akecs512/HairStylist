@@ -1,4 +1,4 @@
-import myGif from "/worried.gif";
+import myGif from "/images/worried.gif";
 
 export const ErrorPage = () => {
   return (
